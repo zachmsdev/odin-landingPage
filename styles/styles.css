@@ -12,4 +12,168 @@ html {
 body {
   height: 100vh;
 }
+
+header {
+  background: #1F2937;
+  width: 100%;
+  height: 4.5em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header .siteHeader {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .leftSideHead {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .leftSideHead > h2 {
+  display: inline-block;
+  padding-left: 1em;
+  color: white;
+  font-family: "Arial";
+  cursor: pointer;
+}
+
+header .rightSideHead {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .rightSideHead .navLinks {
+  color: white;
+  font-weight: 100;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.3em;
+  font-family: "Arial";
+  cursor: pointer;
+}
+
+.siteContainer {
+  width: 75%;
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+  background: yellow;
+}
+
+.heroSection {
+  height: 20em;
+  width: 100%;
+  background: #1F2937;
+}
+
+.heroSection .HERO {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.heroSection .leftSideHero {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroSection .leftSideHero .leftSideContent {
+  height: 55%;
+  width: 70%;
+  margin-right: 3em;
+}
+
+.heroSection .leftSideHero .leftSideContent > .heroHead {
+  font-family: "Arial";
+  font-size: 2em;
+  color: #F9FAF8;
+  margin-bottom: 0.1em;
+}
+
+.heroSection .leftSideHero .leftSideContent > p {
+  font-family: "Arial";
+  color: #E5E7EB;
+  font-size: 0.9em;
+  margin-bottom: 0.6em;
+}
+
+.heroSection .leftSideHero .leftSideContent > button {
+  font-family: "Arial";
+  cursor: pointer;
+  background: #3882F6;
+  color: white;
+  padding: 0.5em 1.6em;
+  border: none;
+  border-radius: 0.5em;
+  margin-left: 0.2em;
+}
+
+.heroSection .rightSideHero {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroSection .rightSideHero .rightSideContent {
+  height: 55%;
+  width: 80%;
+  background: #6D747D;
+  margin-left: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroSection .rightSideHero .rightSideContent > p {
+  color: #E5E7EB;
+}
 /*# sourceMappingURL=styles.css.map */

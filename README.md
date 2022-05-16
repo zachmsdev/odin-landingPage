@@ -1,8 +1,8 @@
 
 PSD design to HTML/CSS.
-The Odin Project tutorial.
+The Odin Project tutorial. (Non-Responsive)
 
-Skills being practiced: 
+Skills being practiced 
 --> HTML
 --> CSS
 --> SCSS
