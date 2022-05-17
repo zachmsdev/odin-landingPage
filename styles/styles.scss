@@ -13,6 +13,7 @@ html {
 
 body {
     height: 100vh;
+    background: #E5E7EB;
 }
 
 $mainFont: 'Arial';
@@ -45,7 +46,7 @@ header {
         align-items: center;
         & > h2 {
             display: inline-block;
-            padding-left: 1em;
+            padding-left: 1.3em;
             color: white;
             font-family: $mainFont;
             cursor: pointer;
@@ -78,7 +79,7 @@ header {
 // ----------------------------- // HERO SECTION
 
 .heroSection {
-    height: 20em;
+    height: 23em;
     width: 100%;
     background: $darkBlue;
     & .HERO {
@@ -140,4 +141,50 @@ header {
 }
 
 // ----------------------------- // INFORMATION SECTION
+
+.infoSection {
+    background: white;
+    height: 24em;
+    width: 100%;
+    & .topInfoSection {
+        font-size: 1.1em;
+        height: 5em;
+        width: 100%;
+        @include bringCenter();
+        font-family: $mainFont;
+        font-weight: 800;
+        color: $darkBlue;
+    }
+    & .bottomInfoSection {
+        height: 16em;
+        width: 100%;
+        @include bringCenter();
+        gap: 1.5em;
+        & > div {
+            height: 14em;
+            width: 12%;
+            max-width: 150px;
+        }
+    }
+}
+
+.topBox {
+    border: 4px solid $buttonColor;
+    height: 65%;
+    border-radius: 1em;
+}
+
+.bottomBox {
+    height: 35%;
+}
+
+.infoTxt {
+    font-size: 0.875em;
+    text-align: center;
+    padding-top: 0.3em;
+    font-family: $mainFont;
+    color: #6D747D;
+}
+
+// ----------------------------- // QUOTE SECTION
 
