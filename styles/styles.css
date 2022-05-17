@@ -262,6 +262,7 @@ header .rightSideHead .navLinks {
 
 .quoteSection .quoteBox > p {
   font-size: 2.250em;
+  padding-top: 0.5em;
   font-family: 'Roboto';
   font-style: italic;
   color: #1F2937;
@@ -277,7 +278,23 @@ header .rightSideHead .navLinks {
 }
 
 .callSection {
-  background: firebrick;
+  background: white;
   height: 18em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.callSection .callBox {
+  height: 8em;
+  width: 60%;
+  background: #3882F6;
+  border-radius: 0.5em;
 }
 /*# sourceMappingURL=styles.css.map */

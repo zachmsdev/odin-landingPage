@@ -8,4 +8,4 @@ Skills being practiced
 --> HTML
 --> CSS
 --> SCSS
---> Git (Mostly Git)
+--> Git

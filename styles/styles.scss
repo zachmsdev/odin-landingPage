@@ -197,6 +197,7 @@ header {
         height: 15em;
         & > p {
             font-size: 2.250em;
+            padding-top: 0.5em;
             font-family: 'Roboto';
             font-style: italic;
             color: $darkBlue;
@@ -215,6 +216,13 @@ header {
 // ----------------------------- // CALL SECTION
 
 .callSection {
-    background: firebrick;
+    background: white;
     height: 18em;
+    @include bringCenter();
+    & .callBox {
+        height: 8em;
+        width: 60%;
+        background: $buttonColor;
+        border-radius: 0.5em;
+    }
 }
