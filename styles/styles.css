@@ -45,7 +45,7 @@ header .leftSideHead {
 
 header .leftSideHead > h2 {
   display: inline-block;
-  padding-left: 1.3em;
+  padding-left: 1.5em;
   color: white;
   font-family: "Arial";
   cursor: pointer;
@@ -77,12 +77,16 @@ header .rightSideHead .navLinks {
   cursor: pointer;
 }
 
+header .rightSideHead .navLinks li:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
 .siteContainer {
   width: 75%;
   max-width: 1300px;
   height: 100%;
   margin: 0 auto;
-  background: yellow;
 }
 
 .heroSection {
@@ -117,6 +121,19 @@ header .rightSideHead .navLinks {
   height: 55%;
   width: 70%;
   margin-right: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .heroSection .leftSideHero .leftSideContent > .heroHead {
@@ -124,6 +141,7 @@ header .rightSideHead .navLinks {
   font-size: 2em;
   color: #F9FAF8;
   margin-bottom: 0.1em;
+  width: 100%;
 }
 
 .heroSection .leftSideHero .leftSideContent > p {
@@ -142,6 +160,12 @@ header .rightSideHead .navLinks {
   border: none;
   border-radius: 0.5em;
   margin-left: 0.2em;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.heroSection .leftSideHero .leftSideContent > button:hover {
+  border: 2px solid black;
 }
 
 .heroSection .rightSideHero {
@@ -261,7 +285,7 @@ header .rightSideHead .navLinks {
 }
 
 .quoteSection .quoteBox > p {
-  font-size: 2.250em;
+  font-size: 2.2em;
   padding-top: 0.5em;
   font-family: 'Roboto';
   font-style: italic;
@@ -296,5 +320,94 @@ header .rightSideHead .navLinks {
   width: 60%;
   background: #3882F6;
   border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.leftCallBox {
+  width: 55%;
+  height: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.leftCallBox > h3 {
+  width: 100%;
+  color: #E5E7EB;
+  font-family: "Arial";
+}
+
+.leftCallBox > p {
+  color: #E5E7EB;
+  font-family: "Arial";
+  font-size: 14px;
+  width: 100%;
+}
+
+.rightCallBox {
+  width: 27%;
+  height: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rightCallBox > button {
+  cursor: pointer;
+  font-family: 'Arial';
+  font-weight: bold;
+  background: #3882F6;
+  padding: 0.5em 2em;
+  border: 2px solid #E5E7EB;
+  color: #E5E7EB;
+  border-radius: 0.5em;
+  -webkit-transition: padding 0.5s ease;
+  transition: padding 0.5s ease;
+}
+
+.rightCallBox > button:hover {
+  padding: 0.7em 2.3em;
+}
+
+footer {
+  height: 5em;
+  width: 100%;
+  font-size: 0.9em;
+  background: #1F2937;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #E5E7EB;
+  font-family: "Arial";
 }
 /*# sourceMappingURL=styles.css.map */
