@@ -1,6 +1,6 @@
 <h2>Landing Page</h2>
-PSD design to HTML/CSS.
-The Odin Project tutorial. (Non-Responsive)
+PSD to HTML/SCSS.
+The Odin Project tutorial. (Non-Responsive..planning on making responsive very soon.)
 
 Building from this: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
 
@@ -13,5 +13,6 @@ Building from this: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/
 </ul>
 
 <h3>Live Demo</h3>
----> Live Demo Link
+<a href='https://zachmsdev.github.io/odin-landingPage/'>Landing Page</a>
+
 
